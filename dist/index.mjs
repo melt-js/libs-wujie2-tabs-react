@@ -1,1 +1,0 @@
-import{useSyncExternalStore as s}from"react";import{createWujieTabs as b}from"@melt-js/libs-wujie2-tabs-core";function c(t){return s(t.subscribe,t.getState,t.getState)}function r({manager:t,children:e}){let o=c(t);return e({...o,activate:t.activate,close:t.close,closeOthers:t.closeOthers,closeAll:t.closeAll})}export{r as WujieTabBar,b as createWujieTabs,c as useWujieTabs};
